@@ -49,6 +49,15 @@
             Console.WriteLine(book.genre);
 
             #endregion
+
+            #region 7th q
+            Genre genre = Genre.Fiction;
+            string gentext=genre.ToString();
+            Console.WriteLine(gentext);
+
+
+         
+            #endregion
         }
     }
 }
