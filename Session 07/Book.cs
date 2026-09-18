@@ -7,6 +7,7 @@ namespace Session_07
     internal class Book
     {
         private string Password = "Secret";
-          
+        internal int copiesInStock = 5;
+
     }
 }
