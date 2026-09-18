@@ -37,10 +37,16 @@
 
             #region 5th q
 
-            
             Console.WriteLine((int)Genre.Fiction);
             Console.WriteLine((int)Genre.NonFiction);
             Console.WriteLine((int) Genre.Science);
+
+            #endregion
+
+            #region 6th
+            int genreNumber = 1;
+            book.genre = (Genre)genreNumber;
+            Console.WriteLine(book.genre);
 
             #endregion
         }
