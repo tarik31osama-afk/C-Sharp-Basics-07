@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Session_07
 {
-    internal class Class1
+    internal class Book
     {
+        private string Password = "Secret";
+          
     }
 }
