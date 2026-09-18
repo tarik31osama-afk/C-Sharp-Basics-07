@@ -19,8 +19,13 @@
             #region 2nd q
             Console.WriteLine(book.copiesInStock);
             /* it will compile because the field is internal so it can be used in all project*/
-              
 
+
+            #endregion
+
+            #region 3rd q
+            book.title = "clean code";
+            Console.WriteLine(book.title);
             #endregion
         }
     }
