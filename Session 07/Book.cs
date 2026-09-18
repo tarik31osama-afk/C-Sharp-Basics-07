@@ -10,5 +10,7 @@ namespace Session_07
         internal int copiesInStock = 5;
         public string title;
 
+        public Genre genre { get; set; }
+
     }
 }

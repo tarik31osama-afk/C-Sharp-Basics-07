@@ -27,6 +27,13 @@
             book.title = "clean code";
             Console.WriteLine(book.title);
             #endregion
+
+            #region 4th q
+
+            book.genre = Genre.Science;
+            Console.WriteLine(book.genre);
+
+            #endregion
         }
     }
 }
