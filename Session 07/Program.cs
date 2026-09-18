@@ -34,6 +34,15 @@
             Console.WriteLine(book.genre);
 
             #endregion
+
+            #region 5th q
+
+            
+            Console.WriteLine((int)Genre.Fiction);
+            Console.WriteLine((int)Genre.NonFiction);
+            Console.WriteLine((int) Genre.Science);
+
+            #endregion
         }
     }
 }
